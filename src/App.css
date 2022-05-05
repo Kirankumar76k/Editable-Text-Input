@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #f5d0fe;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 8px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-class {
+  height: 36px;
+  width: 200px;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  outline: none;
+  font-size: 18px;
+  color: #323f4b;
+}
+.heading {
+  font-size: 28px;
+}
+.saveBtn {
+  background-color: #d946ef;
+  color: white;
+  border-radius: 3px;
+  padding: 17px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.entered-text {
+  /* height: 36px;
+  width: 200px; */
+  font-size: 18px;
+  color: #323f4b;
+}
